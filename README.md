@@ -20,7 +20,7 @@
 
 ### UML  
 
-![preview](./IMAGE.jpg)
+![preview](./UML.jpg)
 
 ## Notes:
 
@@ -44,3 +44,6 @@ npm test
 I run the app by typing this command (nodemon)
 
 I set up the app by typing this command (npm init -y)
+
+
+
