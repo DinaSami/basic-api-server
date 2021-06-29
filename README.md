@@ -20,7 +20,7 @@
 
 ### UML  
 
-![preview](./IMAGE.jpg)
+![preview](./UML.jpg)
 
 ## Notes:
 
