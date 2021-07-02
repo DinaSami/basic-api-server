@@ -1,28 +1,28 @@
 # basic-api-server
 
-## URLs : 
+## URLs
 
-### Heroku applications :
+### Heroku applications
 
 [server-deploy-dev](https://basic-api-server-dev1.herokuapp.com/)
 
 [server-deploy-main](https://basic-api-server-dina.herokuapp.com/)
 
-### Github actions:
+### Github actions
 
 [actions](https://github.com/DinaSami/basic-api-server/actions)
 
-### pull request:
+### pull request
 
 [PR](https://github.com/DinaSami/basic-api-server/pull/1)
 
-## Drawings:
+## Drawings
 
 ### UML  
 
 ![preview](./UML.jpg)
 
-## Notes:
+## Notes
 
 ### CI/CD (continuous integration , continuous deployment)
 
@@ -35,6 +35,7 @@ I install the app or library by typing (npm install -the library's name)
 ```
 npm install express
 ```
+
 I test the app or library by typing (npm test)
 
 ```
@@ -44,6 +45,3 @@ npm test
 I run the app by typing this command (nodemon)
 
 I set up the app by typing this command (npm init -y)
-
-
-

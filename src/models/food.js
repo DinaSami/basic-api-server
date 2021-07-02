@@ -3,7 +3,9 @@ const uuid = require('uuid').v4;
 
 class Food {
   constructor() {
+
     this.db = [];
+
   }
 
   read(id) {
@@ -14,6 +16,12 @@ class Food {
     }
   }
 
+  /* db[
+    {id:1 obj}
+    {id:2 obj}
+    {id:3 obj }
+        ]*/
+
   create(obj) {
     const record = {
       id: uuid(),
@@ -23,12 +31,12 @@ class Food {
     return record;
   }
   update(id, obj) {
-    for (let i = 0; i < this.db.length; i++) {
-      if (this.db[i].id === id) {
-        this.db[i].data = obj;
-        return this.db[i];
+    this.db.map(record => {
+      if (record.id === id) {
+        record.data = obj;
+        return record;
       }
-    }
+    })
   }
 
   delete(id) {

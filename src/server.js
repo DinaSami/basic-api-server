@@ -11,8 +11,11 @@ const clothesRouter = require('./routes/clothes');
 app.use(express.json());
 app.use(morgan('combined'));
 app.use(cors());
+
+
 app.use('/clothes', clothesRouter);
-app.use('/food', foodRouter);
+app.use('/food', clothesRouter);
+
 
 app.get('/', (req, res) => {
   res.send('Hello world');
