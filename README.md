@@ -4,8 +4,6 @@
 
 ### Heroku applications
 
-[server-deploy-dev](https://basic-api-server-dev1.herokuapp.com/)
-
 [server-deploy-main](https://basic-api-server-dina.herokuapp.com/)
 
 ### Github actions
